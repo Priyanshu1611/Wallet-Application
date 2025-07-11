@@ -25,24 +25,6 @@ A secure wallet service built with Spring Boot (v2.7) and Java 8, using H2 file-
 - **H2 File-based Database**
 - **Maven**
 
----
-
-## 📁 Project Structure
-
-```
-wallet-application/
-├── src/
-│   ├── controller/
-│   ├── dto/
-│   ├── entity/
-│   ├── repository/
-│   └── service/
-├── postman/
-│   └── wallet-collection.json
-├── application.properties
-├── README.md
-└── pom.xml
-```
 
 ---
 
@@ -50,7 +32,6 @@ wallet-application/
 
 A Postman Collection is available in the `postman/` directory:
 
-📥 [Download Wallet Postman Collection](postman/wallet-collection.json)
 
 To test:
 1. Import the collection in Postman.
@@ -135,18 +116,3 @@ spring.datasource.password=
 spring.datasource.driverClassName=org.h2.Driver
 spring.jpa.hibernate.ddl-auto=update
 ```
-
----
-
-## 📌 TODO / Future Enhancements
-
-- Add JWT authentication
-- Add transaction history APIs
-- Add email notifications
-- Add admin dashboard
-
----
-
-## 📃 License
-
-This project is for educational and technical assessment purposes only.
